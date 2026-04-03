@@ -14,7 +14,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/lidiaa">
 
         <Header />
 
