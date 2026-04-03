@@ -1,0 +1,59 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.sucesso {
+    color: green;
+    margin-bottom: 10px;
+}
+
+.form {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form input:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.2);
+}
+
+.form button {
+    padding: 10px;
+    background: #777;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #1e40af;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    background: #f3f4f6;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+.vazio {
+    color: gray;
+}
